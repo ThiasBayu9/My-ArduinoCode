@@ -1,12 +1,9 @@
-#include <Servo.h>
-Servo reee;
 int pos = 00;
 int buzz = 13;
 int led0 = 7;
 int led1 = 5;
 
 void setup() {
-  reee.attach(3);
   pinMode(buzz, OUTPUT);
   pinMode(led0, OUTPUT);
   pinMode(led1, OUTPUT);
